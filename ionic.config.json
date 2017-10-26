@@ -1,0 +1,8 @@
+{
+  "name": "ConexaoAcademica",
+  "app_id": "ac7b0ef1",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

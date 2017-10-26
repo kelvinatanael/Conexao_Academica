@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar color="barraNavegacao">
+    <ion-title>
+      Artigos Acadêmicos
+    </ion-title>
+    <ion-buttons start>
+      <button ion-button icon-only (click)="addArtigos()">
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+        <button ion-button icon-only (click)="barraPesquisa()">
+          <ion-icon name="search"></ion-icon>
+        </button>
+      </ion-buttons>
+  </ion-navbar>
+  
+</ion-header>
+
+<ion-content padding>
+
+    <ion-searchbar (ionInput)="getItems()" id="search"></ion-searchbar>
+    <ion-list>
+      <ion-item>
+      </ion-item>
+    </ion-list>
+
+
+</ion-content>
